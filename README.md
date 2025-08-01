@@ -4,6 +4,7 @@
 - 是双任务预训练，预测masked token和预测next sentence
 - 既能用于sentence级别的任务，也能用于token级别的任务
 - 通常，额外加一层输出层，即可微调特定任务
+- bert输出，每个位置输出一个大小为 hidden_ size 的向量，同时输出
 # 二、适用下游任务
 句子级别：
 - 文本分类
